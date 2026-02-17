@@ -104,7 +104,7 @@ export default function Contact() {
           className="relative"
         >
           <form
-            className="space-y-6 p-8 md:p-10 bg-stone-900/40 backdrop-blur-md rounded-3xl border border-stone-800/50 shadow-2xl"
+            className="space-y-5 md:space-y-6 p-6 md:p-10 bg-stone-900/40 backdrop-blur-md rounded-3xl border border-stone-800/50 shadow-2xl"
             onSubmit={(e:any) => e.preventDefault()}
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -113,7 +113,7 @@ export default function Contact() {
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-5 py-3.5 rounded-xl border border-stone-800 bg-black/40 text-white placeholder-stone-600 focus:outline-hidden focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all font-light"
+                  className="w-full px-4 py-3 md:px-5 md:py-3.5 rounded-xl border border-stone-800 bg-black/40 text-white placeholder-stone-600 focus:outline-hidden focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all font-light"
                   placeholder="John Doe"
                 />
               </div>
@@ -122,7 +122,7 @@ export default function Contact() {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-5 py-3.5 rounded-xl border border-stone-800 bg-black/40 text-white placeholder-stone-600 focus:outline-hidden focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all font-light"
+                  className="w-full px-4 py-3 md:px-5 md:py-3.5 rounded-xl border border-stone-800 bg-black/40 text-white placeholder-stone-600 focus:outline-hidden focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all font-light"
                   placeholder="john@example.com"
                 />
               </div>
@@ -132,7 +132,7 @@ export default function Contact() {
               <div className="relative">
                 <select
                   id="subject"
-                  className="w-full px-5 py-3.5 rounded-xl border border-stone-800 bg-black/40 text-white focus:outline-hidden focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all appearance-none font-light"
+                  className="w-full px-4 py-3 md:px-5 md:py-3.5 rounded-xl border border-stone-800 bg-black/40 text-white focus:outline-hidden focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all appearance-none font-light"
                 >
                   <option className="bg-stone-900">General Inquiry</option>
                   <option className="bg-stone-900">Residential Design</option>
@@ -151,7 +151,7 @@ export default function Contact() {
               <textarea
                 id="message"
                 rows={4}
-                className="w-full px-5 py-3.5 rounded-xl border border-stone-800 bg-black/40 text-white placeholder-stone-600 focus:outline-hidden focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all resize-none font-light"
+                className="w-full px-4 py-3 md:px-5 md:py-3.5 rounded-xl border border-stone-800 bg-black/40 text-white placeholder-stone-600 focus:outline-hidden focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all resize-none font-light"
                 placeholder="Tell us about your project..."
               />
             </div>
