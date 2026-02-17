@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Italiana, Outfit, Quicksand } from "next/font/google";
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
+import WhatsAppButton from "./components/ui/WhatsAppButton";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -38,6 +39,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <WhatsAppButton />
         <Footer />
       </body>
     </html>
