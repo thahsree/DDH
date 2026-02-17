@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# D Design Hub - Premium Interior Design Website
+
+D Design Hub is a modern, responsive interior design portfolio website built with Next.js, Tailwind CSS, and Framer Motion. It showcases premium interior design services with elegant animations and a sophisticated aesthetic.
+
+## Features
+
+- **Modern & Responsive Design**: built with Tailwind CSS for a seamless experience across all devices.
+- **Elegant Animations**: Smooth transitions and scroll animations powered by Framer Motion.
+- **Dark Mode Compatible**: Theming support for light and dark modes (customizable).
+- **Interactive Components**:
+  - Hero Section with call-to-action
+  - Services Overview
+  - Portfolio Gallery
+  - Testimonials Carousel with profile images
+  - Contact Form
+- **Legal Pages**: Privacy Policy and Terms of Service included.
+- **SEO Optimized**: Semantic HTML and Next.js optimization.
+
+## Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Fonts**: [Google Fonts](https://fonts.google.com/) (Outfit, Quicksand, Italiana)
 
 ## Getting Started
 
-First, run the development server:
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/d-design-hub.git
+    cd d-design-hub
+    ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4.  **Open the app**:
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+- `app/`: Main application code (App Router)
+    - `components/`: Reusable UI components and sections
+    - `layout.tsx`: Root layout including Header and Footer
+    - `page.tsx`: Home page assembling all sections
+- `public/`: Static assets (images, icons)
 
-To learn more about Next.js, take a look at the following resources:
+## Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Colors**: Modified in `app/globals.css` via CSS variables and Tailwind configuration.
+- **Content**: Update the data arrays in individual section components (e.g., `Testimonials.tsx`, `Services.tsx`) to change the content.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the LICENSE file for details.
